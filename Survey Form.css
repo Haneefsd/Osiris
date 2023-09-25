@@ -1,0 +1,51 @@
+body {
+        background-color: #c4c4c4;
+        font-family: Verdana;
+        text-align: center;
+    }
+
+.form {
+        text-align: justify;
+        background-color: #060a5b;
+        color: #ffffff;
+        padding: 30px 20px;
+        margin: 50px auto;
+        max-width: 80%;
+        box-shadow: #000;
+        border-radius: 10px;
+}
+
+.control{
+        text-align: left;
+        margin-bottom: 25px;
+}
+
+.control label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+.control input{
+                border: 1px #080505;
+                border-radius: 4px;
+                width: 80%;
+                color: #000000;
+                font-family: 'Times New Roman', Times, serif;
+                padding: 5px;
+                font-size: medium;
+}
+
+.control select{
+        border: 1px #080505;
+        border-radius: 4px;
+        width: 80%;
+        color: #000000;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 5px;
+        font-size: medium;
+}
+
+.control input[type="radio"]{
+        display: inline-block;
+        width: auto;
+}
