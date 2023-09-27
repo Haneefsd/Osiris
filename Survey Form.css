@@ -1,13 +1,13 @@
 body {
-        background-color: #c4c4c4;
+        background-color: #52489c;
         font-family: Verdana;
         text-align: center;
     }
 
 .form {
         text-align: justify;
-        background-color: #060a5b;
-        color: #ffffff;
+        background-color: #d9c7eb;
+        color: #0b675c;
         padding: 30px 20px;
         margin: 50px auto;
         max-width: 80%;
@@ -32,7 +32,7 @@ body {
                 color: #000000;
                 font-family: 'Times New Roman', Times, serif;
                 padding: 5px;
-                font-size: medium;
+                font-size: larger;
 }
 
 .control select{
@@ -45,7 +45,59 @@ body {
         font-size: medium;
 }
 
-.control input[type="radio"]{
+
+
+.input[type="radio"] {
+        margin-right: 10px;
+   
+}
+    
+    
+.label {
         display: inline-block;
-        width: auto;
+        margin-right: 20px;
+}
+    
+
+input[type="radio"]:checked + label {
+        font-weight: bold;
+        color: #6a8528;
+}
+
+
+
+.input[type="checkbox"] {
+        margin-right: 10px;
+}
+    
+
+.label {
+        display: inline-block;
+        margin-right: 20px;
+}
+    
+input[type="checkbox"]:checked + label {
+        font-weight: bold;
+        color: #6a8528;
+}
+
+ button{
+        background-color: #000;
+        color: #a1de15;
+        width: 220px;
+        height: 50px;
+        border-radius: 9px;
+        font-size: x-large;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+                background-color: #4426ca;
+}
+      
+
+button:active {
+                transform: scale(0.95);
 }
