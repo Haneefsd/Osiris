@@ -81,7 +81,7 @@ input[type="checkbox"]:checked + label {
         color: #6a8528;
 }
 
- button{
+.button{
         background-color: #000;
         color: #a1de15;
         width: 220px;
@@ -101,3 +101,8 @@ button:hover {
 button:active {
                 transform: scale(0.95);
 }
+      
+
+
+
+
